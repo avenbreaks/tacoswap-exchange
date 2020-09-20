@@ -5,8 +5,8 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/images/chef.png'
-import LogoDark from '../../assets/images/chef.png'
+import Logo from '../../assets/images/taco/TacoChef.png'
+import LogoDark from '../../assets/images/taco/TacoChef.png'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useETHBalances } from '../../state/wallet/hooks'
@@ -156,7 +156,7 @@ export default function Header() {
               <img style={{ height: 32 }} src={isDark ? LogoDark : Logo} alt="logo" />
             </UniIcon>
             <StyledText>
-              SushiSwap <MasterChefText>Exchange</MasterChefText>
+              Tacoswap <MasterChefText>Exchange</MasterChefText>
             </StyledText>
           </Title>
         </HeaderElement>

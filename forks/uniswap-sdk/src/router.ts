@@ -29,11 +29,11 @@ export interface TradeOptions {
 }
 
 /**
- * The parameters to use in the call to the SushiSwap LP Token Router to execute a trade.
+ * The parameters to use in the call to the Tacoswap LP Token Router to execute a trade.
  */
 export interface SwapParameters {
   /**
-   * The method to call on the SushiSwap LP Token Router.
+   * The method to call on the Tacoswap LP Token Router.
    */
   methodName: string
   /**
@@ -53,7 +53,7 @@ function toHex(currencyAmount: CurrencyAmount) {
 const ZERO_HEX = '0x0'
 
 /**
- * Represents the SushiSwap LP Token Router, and has static methods for helping execute trades.
+ * Represents the Tacoswap LP Token Router, and has static methods for helping execute trades.
  */
 export abstract class Router {
   /**
