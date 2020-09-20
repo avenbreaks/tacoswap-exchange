@@ -5,8 +5,8 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/images/taco/TacoChef.png'
-import LogoDark from '../../assets/images/taco/TacoChef.png'
+import Logo from '../../assets/images/taco/Don.png'
+import LogoDark from '../../assets/images/taco/Don.png'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useETHBalances } from '../../state/wallet/hooks'
