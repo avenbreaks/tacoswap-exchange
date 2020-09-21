@@ -63,7 +63,7 @@ export function colors(darkMode: boolean): Colors {
     primary2: darkMode ? '#3680E7' : '#88715f',
     primary3: darkMode ? '#4D8FEA' : '#aa9585',
     primary4: darkMode ? '#376bad70' : '#e2d6cf',
-    primary5: darkMode ? '#153d6f70' : '#f0e9e7',
+    primary5: darkMode ? '#153d6f70' : '#f7c67c',
 
     // color text
     primaryText1: darkMode ? '#6da8ff' : '#805e49',
@@ -214,6 +214,6 @@ body {
   background-position: 0 -30vh;
   background-repeat: no-repeat;
   background-image: ${({ theme }) =>
-    `radial-gradient(50% 50% at 50% 50%, ${theme.primary5} 0%, ${transparentize(1, theme.primary4)} 100%)`};
+    `linear-gradient(180deg, ${theme.primary5} 0%, ${transparentize(1, theme.primary4)} 100%)`};
 }
 `
